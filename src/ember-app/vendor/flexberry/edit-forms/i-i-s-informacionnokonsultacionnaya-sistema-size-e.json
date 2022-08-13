@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Size",
+  "name": "IISInformacionnokonsultacionnaya_sistemaSizeE",
+  "className": "SizeE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-informacionnokonsultacionnaya-sistema-size",
+      "modelProjection": "SizeE"
+    }
+  ]
+}

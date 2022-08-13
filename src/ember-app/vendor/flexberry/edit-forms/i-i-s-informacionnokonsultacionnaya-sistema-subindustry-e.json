@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Subindustry",
+  "name": "IISInformacionnokonsultacionnaya_sistemaSubindustryE",
+  "className": "SubindustryE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-informacionnokonsultacionnaya-sistema-subindustry",
+      "modelProjection": "SubindustryE"
+    }
+  ]
+}

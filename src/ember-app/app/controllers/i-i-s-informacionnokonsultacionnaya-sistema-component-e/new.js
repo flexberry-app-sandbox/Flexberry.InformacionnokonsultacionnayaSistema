@@ -1,0 +1,4 @@
+import IISInformacionnokonsultacionnaya_sistemaComponentEController from '../i-i-s-informacionnokonsultacionnaya-sistema-component-e';
+
+var IISInformacionnokonsultacionnaya_sistemaComponentENewController = IISInformacionnokonsultacionnaya_sistemaComponentEController;
+export default IISInformacionnokonsultacionnaya_sistemaComponentENewController;

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-informacionnokonsultacionnaya-sistema-investment-e",
+  "editForm": "i-i-s-informacionnokonsultacionnaya-sistema-investment-e",
+  "external": false,
+  "caption": "Investment",
+  "name": "IISInformacionnokonsultacionnaya_sistemaInvestmentL",
+  "className": "InvestmentL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-informacionnokonsultacionnaya-sistema-investment",
+      "modelProjection": "InvestmentL"
+    }
+  ]
+}

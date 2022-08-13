@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "Informacionnokonsultacionnaya_sistema",
+  "applicationTitle": "Informacionnokonsultacionnaya_sistema",
+  "items": [
+    {
+      "link": null,
+      "menuName": "информационно-консультационная-система",
+      "caption": "Информационно-консультационная система",
+      "title": "Информационно-консультационная система",
+      "children": [
+        {
+          "link": "i-i-s-informacionnokonsultacionnaya-sistema-support-l",
+          "menuName": null,
+          "caption": "Вид поддержки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-informacionnokonsultacionnaya-sistema-form-l",
+          "menuName": null,
+          "caption": "Форма",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-informacionnokonsultacionnaya-sistema-subindustry-l",
+          "menuName": null,
+          "caption": "Подотрасль",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-informacionnokonsultacionnaya-sistema-size-l",
+          "menuName": null,
+          "caption": "Размер компании",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-informacionnokonsultacionnaya-sistema-component-l",
+          "menuName": null,
+          "caption": "Соц.составляющая",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-informacionnokonsultacionnaya-sistema-investment-l",
+          "menuName": null,
+          "caption": "Инвестиции",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

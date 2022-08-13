@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-informacionnokonsultacionnaya-sistema-support-e",
+  "editForm": "i-i-s-informacionnokonsultacionnaya-sistema-support-e",
+  "external": false,
+  "caption": "Support",
+  "name": "IISInformacionnokonsultacionnaya_sistemaSupportL",
+  "className": "SupportL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-informacionnokonsultacionnaya-sistema-support",
+      "modelProjection": "SupportL"
+    }
+  ]
+}

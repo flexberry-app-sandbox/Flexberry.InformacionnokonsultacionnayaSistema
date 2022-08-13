@@ -1,0 +1,4 @@
+import IISInformacionnokonsultacionnaya_sistemaFormEController from '../i-i-s-informacionnokonsultacionnaya-sistema-form-e';
+
+var IISInformacionnokonsultacionnaya_sistemaFormENewController = IISInformacionnokonsultacionnaya_sistemaFormEController;
+export default IISInformacionnokonsultacionnaya_sistemaFormENewController;

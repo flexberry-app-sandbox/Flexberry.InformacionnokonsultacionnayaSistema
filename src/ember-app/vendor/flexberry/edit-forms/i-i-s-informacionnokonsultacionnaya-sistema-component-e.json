@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Component",
+  "name": "IISInformacionnokonsultacionnaya_sistemaComponentE",
+  "className": "ComponentE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-informacionnokonsultacionnaya-sistema-component",
+      "modelProjection": "ComponentE"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+import IISInformacionnokonsultacionnaya_sistemaSupportEController from '../i-i-s-informacionnokonsultacionnaya-sistema-support-e';
+
+var IISInformacionnokonsultacionnaya_sistemaSupportENewController = IISInformacionnokonsultacionnaya_sistemaSupportEController;
+export default IISInformacionnokonsultacionnaya_sistemaSupportENewController;

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Form",
+  "name": "IISInformacionnokonsultacionnaya_sistemaFormE",
+  "className": "FormE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-informacionnokonsultacionnaya-sistema-form",
+      "modelProjection": "FormE"
+    }
+  ]
+}

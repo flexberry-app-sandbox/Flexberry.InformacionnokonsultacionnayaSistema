@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Support",
+  "name": "IISInformacionnokonsultacionnaya_sistemaSupportE",
+  "className": "SupportE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-informacionnokonsultacionnaya-sistema-support",
+      "modelProjection": "SupportE"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+docker-compose -p informacionnokonsultacionnaya_sistema down

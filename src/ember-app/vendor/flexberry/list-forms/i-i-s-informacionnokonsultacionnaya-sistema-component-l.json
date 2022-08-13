@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-informacionnokonsultacionnaya-sistema-component-e",
+  "editForm": "i-i-s-informacionnokonsultacionnaya-sistema-component-e",
+  "external": false,
+  "caption": "Component",
+  "name": "IISInformacionnokonsultacionnaya_sistemaComponentL",
+  "className": "ComponentL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-informacionnokonsultacionnaya-sistema-component",
+      "modelProjection": "ComponentL"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+import IISInformacionnokonsultacionnaya_sistemaSubindustryEController from '../i-i-s-informacionnokonsultacionnaya-sistema-subindustry-e';
+
+var IISInformacionnokonsultacionnaya_sistemaSubindustryENewController = IISInformacionnokonsultacionnaya_sistemaSubindustryEController;
+export default IISInformacionnokonsultacionnaya_sistemaSubindustryENewController;
