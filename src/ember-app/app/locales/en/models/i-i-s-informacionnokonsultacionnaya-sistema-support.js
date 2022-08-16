@@ -17,12 +17,24 @@ export default {
         __caption__: 'List inv',
         name: {
           __caption__: 'Name'
+        },
+        investment: {
+          __caption__: 'Инвестиции',
+          name: {
+            __caption__: ''
+          }
         }
       },
       listSize: {
         __caption__: 'List size',
         name: {
           __caption__: 'Name'
+        },
+        size: {
+          __caption__: 'размер компании',
+          name: {
+            __caption__: ''
+          }
         }
       },
       listComponent: {
@@ -56,6 +68,12 @@ export default {
       },
       description: {
         __caption__: 'Description'
+      },
+      form: {
+        __caption__: 'Форма предоставления',
+        name: {
+          __caption__: 'Форма предоставления'
+        }
       }
     }
   },

@@ -27,10 +27,13 @@ namespace IIS.Informacionnokonsultacionnaya_sistema
 
     // *** End programmer edit section *** (ListInv CustomAttributes)
     [AutoAltered()]
-    [Caption("List inv")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ListInvE", new string[] {
-            "Name as \'Name\'"})]
+            "Name as \'Наименование\'",
+            "Investment as \'Инвестиции\'",
+            "Investment.Name"}, Hidden=new string[] {
+            "Investment.Name"})]
+    [MasterViewDefineAttribute("ListInvE", "Investment", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Name")]
     public class ListInv : ICSSoft.STORMNET.DataObject
     {
         

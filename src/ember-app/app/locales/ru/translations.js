@@ -41,7 +41,7 @@ $.extend(true, translations, {
     'i-i-s-informacionnokonsultacionnaya-sistema-support': IISInformacionnokonsultacionnaya_sistemaSupportModel
   },
 
-  'application-name': 'Informacionnokonsultacionnaya_sistema',
+  'application-name': 'Информационно-консультационная система',
 
   forms: {
     loading: {
@@ -80,7 +80,7 @@ $.extend(true, translations, {
       },
 
       footer: {
-        'application-name': 'Informacionnokonsultacionnaya_sistema',
+        'application-name': 'Информационно-консультационная система',
         'application-version': {
           caption: 'Версия аддона {{version}}',
           title: 'Это версия аддона ember-flexberry, которая сейчас используется в этом тестовом приложении ' +
@@ -91,7 +91,7 @@ $.extend(true, translations, {
 
       sitemap: {
         'application-name': {
-          caption: 'Informacionnokonsultacionnaya_sistema',
+          caption: 'Информационно-консультационная система',
           title: 'Informacionnokonsultacionnaya_sistema'
         },
         'application-version': {

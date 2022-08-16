@@ -29,8 +29,8 @@ namespace IIS.Informacionnokonsultacionnaya_sistema
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("SupportE", new string[] {
-            "Name as \'Name\'",
-            "Description as \'Description\'",
+            "Name as \'Наименование\'",
+            "Description as \'Описание\'",
             "Form as \'Форма предоставления\'",
             "Form.Name"}, Hidden=new string[] {
             "Form.Name"})]
@@ -44,8 +44,9 @@ namespace IIS.Informacionnokonsultacionnaya_sistema
             ""})]
     [MasterViewDefineAttribute("SupportE", "Form", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Name")]
     [View("SupportL", new string[] {
-            "Name as \'Name\'",
-            "Description as \'Description\'"})]
+            "Name as \'Наименование\'",
+            "Description as \'Описание\'",
+            "Form.Name as \'Форма предоставления\'"})]
     public class Support : ICSSoft.STORMNET.DataObject
     {
         

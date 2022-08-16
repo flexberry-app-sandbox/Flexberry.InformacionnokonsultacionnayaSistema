@@ -73,16 +73,22 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('SupportE', 'i-i-s-informacionnokonsultacionnaya-sistema-support', {
-    name: attr('Name', { index: 0 }),
-    description: attr('Description', { index: 1 }),
+    name: attr('Наименование', { index: 0 }),
+    description: attr('Описание', { index: 1 }),
     form: belongsTo('i-i-s-informacionnokonsultacionnaya-sistema-form', 'Форма предоставления', {
       name: attr('', { index: 3, hidden: true })
     }, { index: 2, displayMemberPath: 'name' }),
     listInv: hasMany('i-i-s-informacionnokonsultacionnaya-sistema-list-inv', 'Список ', {
-      name: attr('Name', { index: 0 })
+      name: attr('Наименование', { index: 0 }),
+      investment: belongsTo('i-i-s-informacionnokonsultacionnaya-sistema-investment', 'Инвестиции', {
+        name: attr('', { index: 2, hidden: true })
+      }, { index: 1, displayMemberPath: 'name' })
     }),
     listSize: hasMany('i-i-s-informacionnokonsultacionnaya-sistema-list-size', 'Список', {
-      name: attr('Name', { index: 0 })
+      name: attr('Наименование', { index: 0 }),
+      size: belongsTo('i-i-s-informacionnokonsultacionnaya-sistema-size', 'размер компании', {
+        name: attr('', { index: 2, hidden: true })
+      }, { index: 1 })
     }),
     listComponent: hasMany('i-i-s-informacionnokonsultacionnaya-sistema-list-component', 'Список компонентов', {
       name: attr('Name', { index: 0 }),
@@ -91,7 +97,7 @@ export let defineProjections = function (modelClass) {
       }, { index: 1, displayMemberPath: 'name' })
     }),
     listIndustry: hasMany('i-i-s-informacionnokonsultacionnaya-sistema-list-industry', 'Список отраслей', {
-      name: attr('Name', { index: 0 }),
+      name: attr('Name', { index: 0, hidden: true }),
       subindustry: belongsTo('i-i-s-informacionnokonsultacionnaya-sistema-subindustry', 'Subindustry', {
         name: attr('Name', { index: 2, hidden: true })
       }, { index: 1, displayMemberPath: 'name' })
@@ -99,7 +105,10 @@ export let defineProjections = function (modelClass) {
   });
 
   modelClass.defineProjection('SupportL', 'i-i-s-informacionnokonsultacionnaya-sistema-support', {
-    name: attr('Name', { index: 0 }),
-    description: attr('Description', { index: 1 })
+    name: attr('Наименование', { index: 0 }),
+    description: attr('Описание', { index: 1 }),
+    form: belongsTo('i-i-s-informacionnokonsultacionnaya-sistema-form', 'Форма предоставления', {
+      name: attr('Форма предоставления', { index: 2 })
+    }, { index: -1, hidden: true })
   });
 };

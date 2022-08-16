@@ -3,6 +3,12 @@ export default {
     ListSizeE: {
       name: {
         __caption__: 'Name'
+      },
+      size: {
+        __caption__: 'размер компании',
+        name: {
+          __caption__: ''
+        }
       }
     }
   },

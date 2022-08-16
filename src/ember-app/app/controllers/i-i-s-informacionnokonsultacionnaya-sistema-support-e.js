@@ -7,6 +7,30 @@ export default EditFormController.extend({
     let cellComponent = this._super(...arguments);
     if (attr.kind === 'belongsTo') {
       switch (`${model.modelName}+${bindingPath}`) {
+        case 'i-i-s-informacionnokonsultacionnaya-sistema-list-inv+investment':
+          cellComponent.componentProperties = {
+            choose: 'showLookupDialog',
+            remove: 'removeLookupValue',
+            displayAttributeName: 'name',
+            required: true,
+            relationName: 'investment',
+            projection: 'InvestmentL',
+            autocomplete: true,
+          };
+          break;
+
+        case 'i-i-s-informacionnokonsultacionnaya-sistema-list-size+size':
+          cellComponent.componentProperties = {
+            choose: 'showLookupDialog',
+            remove: 'removeLookupValue',
+            displayAttributeName: '',
+            required: true,
+            relationName: 'size',
+            projection: 'SizeL',
+            autocomplete: true,
+          };
+          break;
+
         case 'i-i-s-informacionnokonsultacionnaya-sistema-list-component+component':
           cellComponent.componentProperties = {
             choose: 'showLookupDialog',

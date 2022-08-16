@@ -35,6 +35,9 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ListInvE', 'i-i-s-informacionnokonsultacionnaya-sistema-list-inv', {
-    name: attr('Name', { index: 0 })
+    name: attr('Наименование', { index: 0 }),
+    investment: belongsTo('i-i-s-informacionnokonsultacionnaya-sistema-investment', 'Инвестиции', {
+      name: attr('', { index: 2, hidden: true })
+    }, { index: 1, displayMemberPath: 'name' })
   });
 };

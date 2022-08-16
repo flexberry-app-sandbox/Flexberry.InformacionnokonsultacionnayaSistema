@@ -35,7 +35,7 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ListIndustryE', 'i-i-s-informacionnokonsultacionnaya-sistema-list-industry', {
-    name: attr('Name', { index: 0 }),
+    name: attr('Name', { index: 0, hidden: true }),
     subindustry: belongsTo('i-i-s-informacionnokonsultacionnaya-sistema-subindustry', 'Subindustry', {
       name: attr('Name', { index: 2, hidden: true })
     }, { index: 1, displayMemberPath: 'name' })

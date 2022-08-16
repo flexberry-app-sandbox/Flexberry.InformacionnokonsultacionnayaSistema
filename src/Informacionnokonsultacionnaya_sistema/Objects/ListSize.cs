@@ -27,10 +27,12 @@ namespace IIS.Informacionnokonsultacionnaya_sistema
 
     // *** End programmer edit section *** (ListSize CustomAttributes)
     [AutoAltered()]
-    [Caption("List size")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ListSizeE", new string[] {
-            "Name as \'Name\'"})]
+            "Name as \'Наименование\'",
+            "Size as \'размер компании\'",
+            "Size.Name"}, Hidden=new string[] {
+            "Size.Name"})]
     public class ListSize : ICSSoft.STORMNET.DataObject
     {
         

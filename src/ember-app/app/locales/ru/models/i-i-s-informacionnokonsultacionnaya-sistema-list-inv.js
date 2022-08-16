@@ -3,6 +3,12 @@ export default {
     ListInvE: {
       name: {
         __caption__: 'Name'
+      },
+      investment: {
+        __caption__: 'Инвестиции',
+        name: {
+          __caption__: ''
+        }
       }
     }
   },

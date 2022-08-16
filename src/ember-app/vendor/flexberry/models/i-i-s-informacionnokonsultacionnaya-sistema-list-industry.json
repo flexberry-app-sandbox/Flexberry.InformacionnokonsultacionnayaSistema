@@ -41,7 +41,7 @@
         {
           "name": "name",
           "caption": "Name",
-          "hidden": false,
+          "hidden": true,
           "index": 0
         }
       ],

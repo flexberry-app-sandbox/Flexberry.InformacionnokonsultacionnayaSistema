@@ -40,12 +40,34 @@
       "attrs": [
         {
           "name": "name",
-          "caption": "Name",
+          "caption": "Наименование",
           "hidden": false,
           "index": 0
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Size",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "default",
+          "caption": "размер компании",
+          "name": "size",
+          "relatedTo": "i-i-s-informacionnokonsultacionnaya-sistema-size",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     }
   ],

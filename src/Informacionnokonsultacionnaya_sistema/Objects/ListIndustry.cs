@@ -33,6 +33,7 @@ namespace IIS.Informacionnokonsultacionnaya_sistema
             "Name as \'Name\'",
             "Subindustry as \'Subindustry\'",
             "Subindustry.Name as \'Name\'"}, Hidden=new string[] {
+            "Name",
             "Subindustry.Name"})]
     [MasterViewDefineAttribute("ListIndustryE", "Subindustry", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Name")]
     public class ListIndustry : ICSSoft.STORMNET.DataObject

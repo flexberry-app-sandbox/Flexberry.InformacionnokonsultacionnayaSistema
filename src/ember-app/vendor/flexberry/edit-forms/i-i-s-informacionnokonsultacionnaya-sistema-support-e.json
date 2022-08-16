@@ -9,6 +9,22 @@
       "detailModelName": null
     },
     {
+      "master": "investment",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "ListInv.Investment",
+      "projection": "InvestmentL",
+      "detailModelName": "i-i-s-informacionnokonsultacionnaya-sistema-list-inv"
+    },
+    {
+      "master": "size",
+      "displayAttributeName": null,
+      "required": true,
+      "relationName": "ListSize.Size",
+      "projection": "SizeL",
+      "detailModelName": "i-i-s-informacionnokonsultacionnaya-sistema-list-size"
+    },
+    {
       "master": "component",
       "displayAttributeName": "name",
       "required": true,
@@ -26,7 +42,7 @@
     }
   ],
   "external": false,
-  "caption": "Support",
+  "caption": "Мера поддержки",
   "name": "IISInformacionnokonsultacionnaya_sistemaSupportE",
   "className": "SupportE",
   "attrs": [],
