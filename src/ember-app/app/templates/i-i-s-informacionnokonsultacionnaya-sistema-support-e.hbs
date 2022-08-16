@@ -45,6 +45,24 @@
     {{flexberry-validationmessage error=(v-get validationModel "description" "message")}}
   </div>
   <div class="field">
+    <label>{{t "forms.i-i-s-informacionnokonsultacionnaya-sistema-support-e.form-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.form
+      displayAttributeName="name"
+      autocomplete=true
+      relationName="form"
+      projection="FormL"
+      title=(t "forms.i-i-s-informacionnokonsultacionnaya-sistema-support-e.form-caption")
+      readonly=readonly
+      componentName="formLookup"
+      class=(if (v-get validationModel "form" "isInvalid") "error")
+      data-test-i-i-s-informacionnokonsultacionnaya-sistema-support-e-form=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "form" "message")}}
+  </div>
+  <div class="field">
     <label>{{t "forms.i-i-s-informacionnokonsultacionnaya-sistema-support-e.listInv-caption"}}</label>
     {{flexberry-groupedit
       componentName="listInvGroupEdit"
@@ -71,5 +89,33 @@
       data-test-i-i-s-informacionnokonsultacionnaya-sistema-support-e-listSize=true
     }}
     {{flexberry-validationmessage error=(v-get validationModel "listSize" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-informacionnokonsultacionnaya-sistema-support-e.listComponent-caption"}}</label>
+    {{flexberry-groupedit
+      componentName="listComponentGroupEdit"
+      mainModelProjection=modelProjection
+      modelProjection=modelProjection.attributes.listComponent
+      content=model.listComponent
+      readonly=readonly
+      orderable=false
+      class=(if (v-get validationModel "listComponent" "isInvalid") "error")
+      data-test-i-i-s-informacionnokonsultacionnaya-sistema-support-e-listComponent=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "listComponent" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-informacionnokonsultacionnaya-sistema-support-e.listIndustry-caption"}}</label>
+    {{flexberry-groupedit
+      componentName="listIndustryGroupEdit"
+      mainModelProjection=modelProjection
+      modelProjection=modelProjection.attributes.listIndustry
+      content=model.listIndustry
+      readonly=readonly
+      orderable=false
+      class=(if (v-get validationModel "listIndustry" "isInvalid") "error")
+      data-test-i-i-s-informacionnokonsultacionnaya-sistema-support-e-listIndustry=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "listIndustry" "message")}}
   </div>
 </form>

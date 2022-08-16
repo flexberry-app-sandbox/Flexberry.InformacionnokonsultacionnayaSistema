@@ -30,11 +30,19 @@ namespace IIS.Informacionnokonsultacionnaya_sistema
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("SupportE", new string[] {
             "Name as \'Name\'",
-            "Description as \'Description\'"})]
-    [AssociatedDetailViewAttribute("SupportE", "ListInv", "ListInvE", true, "", "List inv", true, new string[] {
+            "Description as \'Description\'",
+            "Form as \'Форма предоставления\'",
+            "Form.Name"}, Hidden=new string[] {
+            "Form.Name"})]
+    [AssociatedDetailViewAttribute("SupportE", "ListInv", "ListInvE", true, "", "Список ", true, new string[] {
             ""})]
-    [AssociatedDetailViewAttribute("SupportE", "ListSize", "ListSizeE", true, "", "List size", true, new string[] {
+    [AssociatedDetailViewAttribute("SupportE", "ListSize", "ListSizeE", true, "", "Список", true, new string[] {
             ""})]
+    [AssociatedDetailViewAttribute("SupportE", "ListComponent", "ListComponentE", false, "", "Список компонентов", true, new string[] {
+            ""})]
+    [AssociatedDetailViewAttribute("SupportE", "ListIndustry", "ListIndustryE", false, "", "Список отраслей", true, new string[] {
+            ""})]
+    [MasterViewDefineAttribute("SupportE", "Form", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Name")]
     [View("SupportL", new string[] {
             "Name as \'Name\'",
             "Description as \'Description\'"})]

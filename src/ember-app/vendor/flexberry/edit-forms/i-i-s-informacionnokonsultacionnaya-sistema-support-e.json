@@ -1,5 +1,30 @@
 ﻿{
-  "propertyLookup": [],
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Form",
+      "projection": "FormL",
+      "detailModelName": null
+    },
+    {
+      "master": "component",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "ListComponent.Component",
+      "projection": "ComponentL",
+      "detailModelName": "i-i-s-informacionnokonsultacionnaya-sistema-list-component"
+    },
+    {
+      "master": "subindustry",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "ListIndustry.Subindustry",
+      "projection": "SubindustryL",
+      "detailModelName": "i-i-s-informacionnokonsultacionnaya-sistema-list-industry"
+    }
+  ],
   "external": false,
   "caption": "Support",
   "name": "IISInformacionnokonsultacionnaya_sistemaSupportE",

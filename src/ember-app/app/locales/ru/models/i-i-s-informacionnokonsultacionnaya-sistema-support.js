@@ -7,6 +7,12 @@ export default {
       description: {
         __caption__: 'Description'
       },
+      form: {
+        __caption__: 'Форма предоставления',
+        name: {
+          __caption__: ''
+        }
+      },
       listInv: {
         __caption__: 'List inv',
         name: {
@@ -17,6 +23,30 @@ export default {
         __caption__: 'List size',
         name: {
           __caption__: 'Name'
+        }
+      },
+      listComponent: {
+        __caption__: 'Список компонентов',
+        name: {
+          __caption__: 'Name'
+        },
+        component: {
+          __caption__: 'Component',
+          name: {
+            __caption__: 'Name'
+          }
+        }
+      },
+      listIndustry: {
+        __caption__: 'Список отраслей',
+        name: {
+          __caption__: 'Name'
+        },
+        subindustry: {
+          __caption__: 'Subindustry',
+          name: {
+            __caption__: 'Name'
+          }
         }
       }
     },

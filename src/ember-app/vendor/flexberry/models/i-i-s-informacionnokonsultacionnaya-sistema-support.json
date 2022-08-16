@@ -83,20 +83,56 @@
           "index": 1
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Name",
+          "lookupValueField": "name",
+          "relationName": "Form",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Форма предоставления",
+          "name": "form",
+          "relatedTo": "i-i-s-informacionnokonsultacionnaya-sistema-form",
+          "inverse": null
+        }
+      ],
       "hasMany": [
         {
           "projectionName": "ListInvE",
-          "caption": "List inv",
+          "caption": "Список ",
           "name": "listInv",
           "relatedTo": "i-i-s-informacionnokonsultacionnaya-sistema-list-inv",
           "inverse": null
         },
         {
           "projectionName": "ListSizeE",
-          "caption": "List size",
+          "caption": "Список",
           "name": "listSize",
           "relatedTo": "i-i-s-informacionnokonsultacionnaya-sistema-list-size",
+          "inverse": null
+        },
+        {
+          "projectionName": "ListComponentE",
+          "caption": "Список компонентов",
+          "name": "listComponent",
+          "relatedTo": "i-i-s-informacionnokonsultacionnaya-sistema-list-component",
+          "inverse": null
+        },
+        {
+          "projectionName": "ListIndustryE",
+          "caption": "Список отраслей",
+          "name": "listIndustry",
+          "relatedTo": "i-i-s-informacionnokonsultacionnaya-sistema-list-industry",
           "inverse": null
         }
       ]
