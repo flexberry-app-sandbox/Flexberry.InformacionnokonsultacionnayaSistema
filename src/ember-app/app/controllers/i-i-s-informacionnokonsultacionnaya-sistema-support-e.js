@@ -7,6 +7,18 @@ export default EditFormController.extend({
     let cellComponent = this._super(...arguments);
     if (attr.kind === 'belongsTo') {
       switch (`${model.modelName}+${bindingPath}`) {
+        case 'i-i-s-informacionnokonsultacionnaya-sistema-list-size+size':
+          cellComponent.componentProperties = {
+            choose: 'showLookupDialog',
+            remove: 'removeLookupValue',
+            displayAttributeName: 'name',
+            required: true,
+            relationName: 'size',
+            projection: 'SizeL',
+            autocomplete: true,
+          };
+          break;
+
         case 'i-i-s-informacionnokonsultacionnaya-sistema-list-inv+investment':
           cellComponent.componentProperties = {
             choose: 'showLookupDialog',
@@ -19,14 +31,14 @@ export default EditFormController.extend({
           };
           break;
 
-        case 'i-i-s-informacionnokonsultacionnaya-sistema-list-size+size':
+        case 'i-i-s-informacionnokonsultacionnaya-sistema-list-industry+subindustry':
           cellComponent.componentProperties = {
             choose: 'showLookupDialog',
             remove: 'removeLookupValue',
-            displayAttributeName: '',
+            displayAttributeName: 'name',
             required: true,
-            relationName: 'size',
-            projection: 'SizeL',
+            relationName: 'subindustry',
+            projection: 'SubindustryL',
             autocomplete: true,
           };
           break;
@@ -39,18 +51,6 @@ export default EditFormController.extend({
             required: true,
             relationName: 'component',
             projection: 'ComponentL',
-            autocomplete: true,
-          };
-          break;
-
-        case 'i-i-s-informacionnokonsultacionnaya-sistema-list-industry+subindustry':
-          cellComponent.componentProperties = {
-            choose: 'showLookupDialog',
-            remove: 'removeLookupValue',
-            displayAttributeName: 'name',
-            required: true,
-            relationName: 'subindustry',
-            projection: 'SubindustryL',
             autocomplete: true,
           };
           break;

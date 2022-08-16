@@ -47,8 +47,8 @@
       ],
       "belongsTo": [
         {
-          "lookupValue": null,
-          "lookupValueField": null,
+          "lookupValue": "Name",
+          "lookupValueField": "name",
           "relationName": "Size",
           "belongsTo": [],
           "hidden": false,
@@ -61,8 +61,8 @@
             }
           ],
           "index": 1,
-          "type": "default",
-          "caption": "размер компании",
+          "type": "standard",
+          "caption": "Размер компании",
           "name": "size",
           "relatedTo": "i-i-s-informacionnokonsultacionnaya-sistema-size",
           "inverse": null

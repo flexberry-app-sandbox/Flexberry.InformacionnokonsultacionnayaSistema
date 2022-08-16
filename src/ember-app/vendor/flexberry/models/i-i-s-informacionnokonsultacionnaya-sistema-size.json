@@ -25,7 +25,7 @@
       "attrs": [
         {
           "name": "name",
-          "caption": "Name",
+          "caption": "Наименование",
           "hidden": false,
           "index": 0
         }
@@ -39,7 +39,7 @@
       "attrs": [
         {
           "name": "name",
-          "caption": "Name",
+          "caption": "Наименование",
           "hidden": false,
           "index": 0
         }

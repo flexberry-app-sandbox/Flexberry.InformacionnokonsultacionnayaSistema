@@ -7,22 +7,13 @@ export default {
       description: {
         __caption__: 'Description'
       },
+      link: {
+        __caption__: 'Ссылка на сайт'
+      },
       form: {
         __caption__: 'Форма предоставления',
         name: {
           __caption__: ''
-        }
-      },
-      listInv: {
-        __caption__: 'List inv',
-        name: {
-          __caption__: 'Name'
-        },
-        investment: {
-          __caption__: 'Инвестиции',
-          name: {
-            __caption__: ''
-          }
         }
       },
       listSize: {
@@ -37,15 +28,15 @@ export default {
           }
         }
       },
-      listComponent: {
-        __caption__: 'Список компонентов',
+      listInv: {
+        __caption__: 'List inv',
         name: {
           __caption__: 'Name'
         },
-        component: {
-          __caption__: 'Component',
+        investment: {
+          __caption__: 'Инвестиции',
           name: {
-            __caption__: 'Name'
+            __caption__: ''
           }
         }
       },
@@ -60,6 +51,18 @@ export default {
             __caption__: 'Name'
           }
         }
+      },
+      listComponent: {
+        __caption__: 'Список компонентов',
+        name: {
+          __caption__: 'Name'
+        },
+        component: {
+          __caption__: 'Component',
+          name: {
+            __caption__: 'Name'
+          }
+        }
       }
     },
     SupportL: {
@@ -68,6 +71,9 @@ export default {
       },
       description: {
         __caption__: 'Description'
+      },
+      link: {
+        __caption__: 'Ссылка на сайт'
       },
       form: {
         __caption__: 'Форма предоставления',

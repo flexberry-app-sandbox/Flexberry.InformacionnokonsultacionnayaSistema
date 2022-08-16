@@ -40,7 +40,7 @@
       "attrs": [
         {
           "name": "name",
-          "caption": "Name",
+          "caption": "Наименование",
           "hidden": true,
           "index": 0
         }
@@ -62,7 +62,7 @@
           ],
           "index": 1,
           "type": "standard",
-          "caption": "Subindustry",
+          "caption": "Подотрасль",
           "name": "subindustry",
           "relatedTo": "i-i-s-informacionnokonsultacionnaya-sistema-subindustry",
           "inverse": null

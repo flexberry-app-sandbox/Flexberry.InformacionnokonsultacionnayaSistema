@@ -29,9 +29,9 @@ namespace IIS.Informacionnokonsultacionnaya_sistema
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("SizeE", new string[] {
-            "Name as \'Name\'"})]
+            "Name as \'Наименование\'"})]
     [View("SizeL", new string[] {
-            "Name as \'Name\'"})]
+            "Name as \'Наименование\'"})]
     public class Size : ICSSoft.STORMNET.DataObject
     {
         

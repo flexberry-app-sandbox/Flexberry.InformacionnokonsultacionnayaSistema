@@ -29,9 +29,9 @@ namespace IIS.Informacionnokonsultacionnaya_sistema
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("InvestmentE", new string[] {
-            "Name as \'Name\'"})]
+            "Name as \'Наименование\'"})]
     [View("InvestmentL", new string[] {
-            "Name as \'Name\'"})]
+            "Name as \'Наименование\'"})]
     public class Investment : ICSSoft.STORMNET.DataObject
     {
         

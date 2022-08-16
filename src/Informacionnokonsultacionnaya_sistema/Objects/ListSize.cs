@@ -30,9 +30,10 @@ namespace IIS.Informacionnokonsultacionnaya_sistema
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ListSizeE", new string[] {
             "Name as \'Наименование\'",
-            "Size as \'размер компании\'",
+            "Size as \'Размер компании\'",
             "Size.Name"}, Hidden=new string[] {
             "Size.Name"})]
+    [MasterViewDefineAttribute("ListSizeE", "Size", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Name")]
     public class ListSize : ICSSoft.STORMNET.DataObject
     {
         

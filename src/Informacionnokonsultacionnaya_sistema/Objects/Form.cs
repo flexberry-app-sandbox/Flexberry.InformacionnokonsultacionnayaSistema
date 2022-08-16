@@ -29,9 +29,9 @@ namespace IIS.Informacionnokonsultacionnaya_sistema
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("FormE", new string[] {
-            "Name as \'Name\'"})]
+            "Name as \'Наименование\'"})]
     [View("FormL", new string[] {
-            "Name as \'Name\'"})]
+            "Name as \'Наименование\'"})]
     public class Form : ICSSoft.STORMNET.DataObject
     {
         

@@ -19,10 +19,10 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('SizeE', 'i-i-s-informacionnokonsultacionnaya-sistema-size', {
-    name: attr('Name', { index: 0 })
+    name: attr('Наименование', { index: 0 })
   });
 
   modelClass.defineProjection('SizeL', 'i-i-s-informacionnokonsultacionnaya-sistema-size', {
-    name: attr('Name', { index: 0 })
+    name: attr('Наименование', { index: 0 })
   });
 };

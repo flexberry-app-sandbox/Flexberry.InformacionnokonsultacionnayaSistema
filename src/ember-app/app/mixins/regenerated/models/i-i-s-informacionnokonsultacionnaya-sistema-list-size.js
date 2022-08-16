@@ -36,8 +36,8 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ListSizeE', 'i-i-s-informacionnokonsultacionnaya-sistema-list-size', {
     name: attr('Наименование', { index: 0 }),
-    size: belongsTo('i-i-s-informacionnokonsultacionnaya-sistema-size', 'размер компании', {
+    size: belongsTo('i-i-s-informacionnokonsultacionnaya-sistema-size', 'Размер компании', {
       name: attr('', { index: 2, hidden: true })
-    }, { index: 1 })
+    }, { index: 1, displayMemberPath: 'name' })
   });
 };

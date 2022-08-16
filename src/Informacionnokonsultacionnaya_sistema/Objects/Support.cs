@@ -27,25 +27,28 @@ namespace IIS.Informacionnokonsultacionnaya_sistema
 
     // *** End programmer edit section *** (Support CustomAttributes)
     [AutoAltered()]
+    [Caption("Вид поддержки")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("SupportE", new string[] {
             "Name as \'Наименование\'",
             "Description as \'Описание\'",
+            "link as \'Ссылка на сайт\'",
             "Form as \'Форма предоставления\'",
             "Form.Name"}, Hidden=new string[] {
             "Form.Name"})]
-    [AssociatedDetailViewAttribute("SupportE", "ListInv", "ListInvE", true, "", "Список ", true, new string[] {
+    [AssociatedDetailViewAttribute("SupportE", "ListSize", "ListSizeE", true, "", "Условие 1: Размер компании", true, new string[] {
             ""})]
-    [AssociatedDetailViewAttribute("SupportE", "ListSize", "ListSizeE", true, "", "Список", true, new string[] {
+    [AssociatedDetailViewAttribute("SupportE", "ListInv", "ListInvE", true, "", "Условие 2: Инвестиции ", true, new string[] {
             ""})]
-    [AssociatedDetailViewAttribute("SupportE", "ListComponent", "ListComponentE", false, "", "Список компонентов", true, new string[] {
+    [AssociatedDetailViewAttribute("SupportE", "ListIndustry", "ListIndustryE", false, "", "Условие 3: Подотрасль", true, new string[] {
             ""})]
-    [AssociatedDetailViewAttribute("SupportE", "ListIndustry", "ListIndustryE", false, "", "Список отраслей", true, new string[] {
+    [AssociatedDetailViewAttribute("SupportE", "ListComponent", "ListComponentE", false, "", "Условие 4: Соц.составляющая", true, new string[] {
             ""})]
     [MasterViewDefineAttribute("SupportE", "Form", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Name")]
     [View("SupportL", new string[] {
             "Name as \'Наименование\'",
             "Description as \'Описание\'",
+            "link as \'Ссылка на сайт\'",
             "Form.Name as \'Форма предоставления\'"})]
     public class Support : ICSSoft.STORMNET.DataObject
     {

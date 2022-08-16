@@ -27,11 +27,10 @@ namespace IIS.Informacionnokonsultacionnaya_sistema
 
     // *** End programmer edit section *** (ListIndustry CustomAttributes)
     [AutoAltered()]
-    [Caption("List industry")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ListIndustryE", new string[] {
-            "Name as \'Name\'",
-            "Subindustry as \'Subindustry\'",
+            "Name as \'Наименование\'",
+            "Subindustry as \'Подотрасль\'",
             "Subindustry.Name as \'Name\'"}, Hidden=new string[] {
             "Name",
             "Subindustry.Name"})]

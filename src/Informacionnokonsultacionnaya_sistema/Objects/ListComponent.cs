@@ -27,11 +27,10 @@ namespace IIS.Informacionnokonsultacionnaya_sistema
 
     // *** End programmer edit section *** (ListComponent CustomAttributes)
     [AutoAltered()]
-    [Caption("List component")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ListComponentE", new string[] {
-            "Name as \'Name\'",
-            "Component as \'Component\'",
+            "Name as \'Наименование\'",
+            "Component as \'Соц.составляющая\'",
             "Component.Name as \'Name\'"}, Hidden=new string[] {
             "Component.Name"})]
     [MasterViewDefineAttribute("ListComponentE", "Component", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Name")]

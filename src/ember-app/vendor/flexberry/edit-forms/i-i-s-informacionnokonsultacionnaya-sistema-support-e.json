@@ -9,6 +9,14 @@
       "detailModelName": null
     },
     {
+      "master": "size",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "ListSize.Size",
+      "projection": "SizeL",
+      "detailModelName": "i-i-s-informacionnokonsultacionnaya-sistema-list-size"
+    },
+    {
       "master": "investment",
       "displayAttributeName": "name",
       "required": true,
@@ -17,12 +25,12 @@
       "detailModelName": "i-i-s-informacionnokonsultacionnaya-sistema-list-inv"
     },
     {
-      "master": "size",
-      "displayAttributeName": null,
+      "master": "subindustry",
+      "displayAttributeName": "name",
       "required": true,
-      "relationName": "ListSize.Size",
-      "projection": "SizeL",
-      "detailModelName": "i-i-s-informacionnokonsultacionnaya-sistema-list-size"
+      "relationName": "ListIndustry.Subindustry",
+      "projection": "SubindustryL",
+      "detailModelName": "i-i-s-informacionnokonsultacionnaya-sistema-list-industry"
     },
     {
       "master": "component",
@@ -31,14 +39,6 @@
       "relationName": "ListComponent.Component",
       "projection": "ComponentL",
       "detailModelName": "i-i-s-informacionnokonsultacionnaya-sistema-list-component"
-    },
-    {
-      "master": "subindustry",
-      "displayAttributeName": "name",
-      "required": true,
-      "relationName": "ListIndustry.Subindustry",
-      "projection": "SubindustryL",
-      "detailModelName": "i-i-s-informacionnokonsultacionnaya-sistema-list-industry"
     }
   ],
   "external": false,
