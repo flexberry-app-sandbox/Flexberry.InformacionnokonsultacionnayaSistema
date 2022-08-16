@@ -28,13 +28,13 @@ export default Controller.extend({
             link: 'i-i-s-informacionnokonsultacionnaya-sistema-support-l',
             caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnokonsultacionnaya-sistema-support-l.caption'),
             title: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnokonsultacionnaya-sistema-support-l.title'),
-            icon: 'file',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-informacionnokonsultacionnaya-sistema-form-l',
             caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnokonsultacionnaya-sistema-form-l.caption'),
             title: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnokonsultacionnaya-sistema-form-l.title'),
-            icon: 'chart line',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-informacionnokonsultacionnaya-sistema-subindustry-l',
@@ -46,19 +46,19 @@ export default Controller.extend({
             link: 'i-i-s-informacionnokonsultacionnaya-sistema-size-l',
             caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnokonsultacionnaya-sistema-size-l.caption'),
             title: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnokonsultacionnaya-sistema-size-l.title'),
-            icon: 'chart line',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-informacionnokonsultacionnaya-sistema-component-l',
             caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnokonsultacionnaya-sistema-component-l.caption'),
             title: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnokonsultacionnaya-sistema-component-l.title'),
-            icon: 'folder',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-informacionnokonsultacionnaya-sistema-investment-l',
             caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnokonsultacionnaya-sistema-investment-l.caption'),
             title: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnokonsultacionnaya-sistema-investment-l.title'),
-            icon: 'file',
+            icon: 'list',
             children: null
           }]
         }
